@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+div {
+	display: inline-block
+}
+
+.container {
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: black;
+	line-height: 300px;
+	text-align: center;
+}
+
+.three {
+	background-color: peru;
+	width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    line-height: 250px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.two {
+	background-color: black;
+	width: 350px;
+    height: 200px;
+    margin: 0 auto;
+    line-height: 200px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.one {
+	background-color: peachpuff;
+    width: 300px;
+    height: 150px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
