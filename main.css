@@ -5,44 +5,40 @@ div {
 	display: inline-block
 }
 
-
-
 .container {
 	width: 500px;
-	height: 300px;
-	margin: 300px auto;
+	height: 500px;
+	margin: 0 auto;
+    margin-top: 25%;
 	background-color: black;
-	line-height: 300px;
+	line-height: 500px;
 	text-align: center;
+    }
+
+.three, .two, .one {
+    width: 80%;
+    height: 80%;
+    line-height: 50%;
+    margin-top: 10%;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .three {
-	background-color: peru;
-	width: 400px;
-    height: 250px;
-    margin: 0 auto;
-    line-height: 250px;
-    vertical-align: middle;
-    text-align: center;
+    position: relative;
+    background-color: peru;
+    bottom: 5%
 }
 
 .two {
-	background-color: black;
-	width: 350px;
-    height: 200px;
-    margin: 0 auto;
-    line-height: 200px;
-    vertical-align: middle;
-    text-align: center;
+    background-color: black;
 }
 
 .one {
-	background-color: peachpuff;
-    width: 300px;
-    height: 150px;
-    margin: 0 auto;
-    vertical-align: middle;
+    background-color: peachpuff;
 }
+
+
 
 /*square-box-centered*/
 
